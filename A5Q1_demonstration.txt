@@ -1,0 +1,113 @@
+Student name: Peter Jiang
+Student #: 11379801
+NSID: SZM243
+Assignment 5
+Professor: Dr. Jason Bowey
+ 
+
+
+
+-------Initializing the system-------
+-------Getting Residence information-------
+Enter the name of the Residence: USASK
+Enter the integer label of the first bed: 1
+Enter the integer label of the last bed: 5
+-------Running the system-------
+Options:
+	1: Quit
+	2: Add a new student
+	3: Add a new manager
+	4: Assign a manager to a student
+	5: Display the empty beds of the residence
+	6: Assign a student a bed
+	7: Release a student
+	8: Drop manager-student association
+	9: Display current system state
+Enter your selection {1-9}: 2
+-------Adding Student to Residence-------
+Enter the name of the student: Peter Jiang
+Enter the social insurance number of the student: 123456
+Enter the NSID of the student: SZM243
+Options:
+	1: Quit
+	2: Add a new student
+	3: Add a new manager
+	4: Assign a manager to a student
+	5: Display the empty beds of the residence
+	6: Assign a student a bed
+	7: Release a student
+	8: Drop manager-student association
+	9: Display current system state
+Enter your selection {1-9}: 6
+-------Assigning a Student to a Bed-------
+Enter the NSID of the student: SZM243
+Enter the bed number for the student: 3
+Options:
+	1: Quit
+	2: Add a new student
+	3: Add a new manager
+	4: Assign a manager to a student
+	5: Display the empty beds of the residence
+	6: Assign a student a bed
+	7: Release a student
+	8: Drop manager-student association
+	9: Display current system state
+Enter your selection {1-9}: 5
+The empty beds in the Residence are: [1, 2, 4, 5]
+Options:
+	1: Quit
+	2: Add a new student
+	3: Add a new manager
+	4: Assign a manager to a student
+	5: Display the empty beds of the residence
+	6: Assign a student a bed
+	7: Release a student
+	8: Drop manager-student association
+	9: Display current system state
+Enter your selection {1-9}: 7
+-------Releasing a Student from a Bed-------
+Enter the NSID of the student: SZM243
+Options:
+	1: Quit
+	2: Add a new student
+	3: Add a new manager
+	4: Assign a manager to a student
+	5: Display the empty beds of the residence
+	6: Assign a student a bed
+	7: Release a student
+	8: Drop manager-student association
+	9: Display current system state
+Enter your selection {1-9}: 5
+The empty beds in the Residence are: [1, 2, 3, 4, 5]
+Options:
+	1: Quit
+	2: Add a new student
+	3: Add a new manager
+	4: Assign a manager to a student
+	5: Display the empty beds of the residence
+	6: Assign a student a bed
+	7: Release a student
+	8: Drop manager-student association
+	9: Display current system state
+Enter your selection {1-9}: 1
+
+The students in the system are:
+Name: Peter Jiang
+SIN: 123456
+NSID: SZM243
+Bed: 3
+Managers: 
+-------
+The managers in the system are:
+-------
+The residence is 
+Residence USASK with capacity 5 has the following students: 
+bed 1: 
+bed 2: 
+bed 3: 
+bed 4: 
+bed 5: 
+
+-------System terminated-------
+
+Process finished with exit code 0
